@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Login_Frontend_Wiser
 
-## Getting Started
+Projeto realizado como parte do processo de seleção para desenvolvedor frontend da Wiser Educação.
 
-First, run the development server:
+### Objetivo do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+O objetivo foi criar uma aplicação de login, ou seja, acesso de um usuário. O funcionamento é simples: ao preencher e-mail e senha deverá ser mostrado um alerta com sucesso ou erro. Também teremos uma validação de preenchimento correto em campo de texto.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Instalação
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Baixe os arquivos do repositorio e com a ajuda do gerenciador de pacotes npm instale as dependencias rodando o comando na raiz da pasta do projeto:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+> npm install
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Para testar, rode o comando:
 
-## Learn More
+> npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+### Funcionamento
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para retorno dos alertas de sucesso e erro, um código foi adicionado para simular uma api real.
+Se usuario igual a 'user@mail.com' e senha 'pass', o app faz uma requisição a um serviço de mock desenhado no site https://designer.mocky.io​ retornando uma mensagem de sucesso.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Caso contrario a requisição é feita a outro link do mesmo serviço retornando uma mensagem de erro.
 
-## Deploy on Vercel
+## Histórico
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 0.0.1 
+    - Primeira versão do projeto.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Autor
+
+Victor Fonseca
+
+<p align="left">
+<a href="mailto:victor.sf@live.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg" alt="victorsfonseca" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/victorsfonseca" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="victorsfonseca" height="30" width="40" /></a>
+<a href="https://fb.com/victorsfonseca" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="victorsfonseca" height="30" width="40" /></a>
+<a href="https://instagram.com/victorsfonseca" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="victorsfonseca" height="30" width="40" /></a>
+</p>
